@@ -9,13 +9,18 @@ A computer vision project that detects and classifies American Sign Language (AS
 - Scripts for **data collection**, **dataset creation**, **model training**, and **inference**
 
 ## 📂 Project Structure
-.
 ├── collect_imgs.py           # Collect hand gesture images
+
 ├── create_dataset.py         # Extract features & create dataset
+
 ├── data.pickle               # Processed dataset (features & labels)
+
 ├── inference_classifier.py   # Real-time ASL detection
+
 ├── model.p                   # Trained Random Forest model
+
 ├── requirements.txt          # Dependencies
+
 ├── train_classifier.py       # Train the classifier
 
 ## 📊 Model
