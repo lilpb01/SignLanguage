@@ -2,13 +2,13 @@
 
 A computer vision project that detects and classifies American Sign Language (ASL) alphabet signs in real time using **Python**, **MediaPipe**, **OpenCV**, and a **Random Forest Classifier** from **scikit-learn**.
 
-## 📌 Features
+##  Features
 - Real-time hand tracking with [MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker)
 - Landmark-based feature extraction from hand positions
 - Classification of ASL alphabet letters (A–Z, excluding J and Z)
 - Scripts for **data collection**, **dataset creation**, **model training**, and **inference**
 
-## 📂 Project Structure
+##  Project Structure
 ├── collect_imgs.py           # Collect hand gesture images
 
 ├── create_dataset.py         # Extract features & create dataset
@@ -23,7 +23,7 @@ A computer vision project that detects and classifies American Sign Language (AS
 
 ├── train_classifier.py       # Train the classifier
 
-## 📊 Model
+##  Model
 - **Algorithm**: Random Forest Classifier 
 - **Input Features**: 3D coordinates (x, y, z) of 21 MediaPipe hand landmarks per frame  
 - **Training Data**: Collected ASL alphabet gestures 
